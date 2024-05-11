@@ -14,7 +14,7 @@
       <div>
         <!-- header -->
 
-        <header>
+        <header class="fixed z-20 w-full h-[20vh] bg-white">
           <!-- on mobile -->
           <nav class="flex justify-start items-center space-x-3 sm:hidden px-5">
             <p class="font-bold text-3xl">TNW</p>
@@ -53,279 +53,282 @@
           </nav>
         </header>
 
-        <!-- grid section 1  -->
-    
-        <section
-          class="mb-10 grid auto-rows-[40vh] gap-2 px-1 sm:px-5 sm:grid sm:grid-cols-4 sm:auto-rows-[17vh]"
-        >
-          <article class="relative text-white sm:col-span-2 sm:row-span-3">
-            <div class="absolute left-5 bottom-5 z-10">
-              <p class="text-sm">DATA AND SECURITY</p>
-              <p class="font-bold text-4xl">
-                Pussy Riot lawyer launches blockchain-based poll to challenge
-                legitimacy of Russian elections
+        <div class="relative top-[20vh]">
+          <!-- grid section 1  -->
+      
+          <section
+            class="mb-10 grid auto-rows-[40vh] gap-2 px-1 sm:px-5 sm:grid sm:grid-cols-4 sm:auto-rows-[17vh]"
+          >
+            <article class="relative text-white sm:col-span-2 sm:row-span-3">
+              <div class="absolute left-5 bottom-5 z-10">
+                <p class="text-sm">DATA AND SECURITY</p>
+                <p class="font-bold text-4xl">
+                  Pussy Riot lawyer launches blockchain-based poll to challenge
+                  legitimacy of Russian elections
+                </p>
+              </div>
+              <img
+                src="src/assets/grid1image1.jpeg"
+                class="w-full h-full object-cover brightness-75 hover:brightness-50 transition-all ease-in-out"
+                alt=""
+              />
+            </article>
+            <article class="relative text-white sm:row-span-2">
+              <div class="absolute left-5 bottom-5 z-10">
+                <p class="text-sm">CORPORATES AND INNOVATION</p>
+                <p class="font-bold text-4xl">This week in Dutch tech</p>
+              </div>
+              <img
+                src="src/assets/grid1image2.jpeg"
+                class="w-full h-full object-cover brightness-75 hover:brightness-50 transition-all ease-in-out"
+                alt=""
+              />
+            </article>
+            <article class="relative text-white sm:row-span-2">
+              <div class="absolute left-5 bottom-5 z-10">
+                <p class="text-sm">DEEP TECH</p>
+                <p class="font-bold text-4xl">
+                  LLMs have become a weapon of information warfare
+                </p>
+              </div>
+              <img
+                src="src/assets/grid1image3.jpeg"
+                class="w-full h-full object-cover brightness-75 hover:brightness-50 transition-all ease-in-out"
+                alt=""
+              />
+            </article>
+            <article class="relative sm:col-span-2 sm:row-span-3 text-white">
+              <div class="absolute left-5 bottom-5 z-10">
+                <p class="text-sm">ECOSYSTEMS</p>
+                <p class="font-bold text-4xl">
+                  TNW Podcast: Peter Sarlin on AI in Europe; let’s talk about carbon
+                  capture
+                </p>
+              </div>
+              <img
+                src="src/assets/grid1image4.jpeg"
+                class="w-full h-full object-cover brightness-75 hover:brightness-50 transition-all ease-in-out"
+                alt=""
+              />
+            </article>
+            <article class="relative sm:row-span-2 sm:col-span-2 text-white">
+              <div class="absolute left-5 bottom-5 z-10 space-y-3">
+                <p class="font-bold text-4xl">Celebrate National Technology Day!</p>
+                <p class="text-sm">
+                  Use discount code TECHDAY-2024 for 30% off your tickets
+                </p>
+                <button class="px-4 py-1 border rounded-3xl">Lorem ipsum dolor sit amet.</button>
+              </div>
+              <img
+                src="src/assets/grid1image5.jpeg"
+                class="w-full h-full object-cover brightness-75 hover:brightness-50 transition-all ease-in-out"
+                alt=""
+              />
+            </article>
+          </section>
+      
+          <!-- latest news -->
+      
+          <section class="mb-10 grid sm:grid-cols-4 gap-4 sm:gap-8 sm:px-10 px-3">
+              <h1 class="text-center font-bold text-4xl sm:text-start sm:col-span-4">Latest news</h1>
+              <article class="grid grid-cols-3 sm:grid-cols-1 sm:space-y-2">
+                  <img src="src/assets/latestnews1.jpeg" class="w-full h-[30vh] object-fill" alt="">
+                  <div class="col-span-2 space-y-1 px-4 sm:px-0">
+                      <p class="self-stretch text-gray-500 text-sm">GOVERNMENT AND POLICY</p>
+                      <p class="self-stretch font-semibold hover:underline">British Navy taps VR to train sailors in warship navigation</p>
+                  </div>
+              </article>
+              <article class="grid grid-cols-3 sm:grid-cols-1 sm:space-y-2">
+                  <img src="src/assets/latestnews2.jpeg" class="w-full h-[30vh] object-fill" alt="">
+                  <div class="col-span-2 space-y-1 px-4 sm:px-0">
+                      <p class="self-stretch text-gray-500 text-sm">GOVERNMENT AND POLICY</p>
+                      <p class="self-stretch font-semibold hover:underline">British Navy taps VR to train sailors in warship navigation</p>
+                  </div>
+              </article>
+              <article class="grid grid-cols-3 sm:grid-cols-1 sm:space-y-2">
+                  <img src="src/assets/latestnews3.jpeg" class="w-full h-[30vh] object-fill" alt="">
+                  <div class="col-span-2 space-y-1 px-4 sm:px-0">
+                      <p class="self-stretch text-gray-500 text-sm">GOVERNMENT AND POLICY</p>
+                      <p class="self-stretch font-semibold hover:underline">British Navy taps VR to train sailors in warship navigation</p>
+                  </div>
+              </article>
+              <article class="grid grid-cols-3 sm:grid-cols-1 sm:space-y-2">
+                  <img src="src/assets/latestnews4.jpeg" class="w-full h-[30vh] object-fill" alt="">
+                  <div class="col-span-2 space-y-1 px-4 sm:px-0">
+                      <p class="self-stretch text-gray-500 text-sm">GOVERNMENT AND POLICY</p>
+                      <p class="self-stretch font-semibold hover:underline">British Navy taps VR to train sailors in warship navigation</p>
+                  </div>
+              </article>
+              <article class="grid grid-cols-3 sm:grid-cols-1 sm:space-y-2">
+                  <img src="src/assets/latestnews5.jpeg" class="w-full h-[30vh] object-fill" alt="">
+                  <div class="col-span-2 space-y-1 px-4 sm:px-0">
+                      <p class="self-stretch text-gray-500 text-sm">GOVERNMENT AND POLICY</p>
+                      <p class="self-stretch font-semibold hover:underline">British Navy taps VR to train sailors in warship navigation</p>
+                  </div>
+              </article>
+              <article class="grid grid-cols-3 sm:grid-cols-1 sm:space-y-2">
+                  <img src="src/assets/latestnews6.jpeg" class="w-full h-[30vh] object-fill" alt="">
+                  <div class="col-span-2 space-y-1 px-4 sm:px-0">
+                      <p class="self-stretch text-gray-500 text-sm">GOVERNMENT AND POLICY</p>
+                      <p class="self-stretch font-semibold hover:underline">British Navy taps VR to train sailors in warship navigation</p>
+                  </div>
+              </article>
+              <article class="grid grid-cols-3 sm:grid-cols-1 sm:space-y-2">
+                  <img src="src/assets/latestnews7.jpeg" class="w-full h-[30vh] object-fill" alt="">
+                  <div class="col-span-2 space-y-1 px-4 sm:px-0">
+                      <p class="self-stretch text-gray-500 text-sm">GOVERNMENT AND POLICY</p>
+                      <p class="self-stretch font-semibold hover:underline">British Navy taps VR to train sailors in warship navigation</p>
+                  </div>
+              </article>
+              <article class="grid grid-cols-3 sm:grid-cols-1 sm:space-y-2">
+                  <img src="src/assets/latestnews1.jpeg" class="w-full h-[30vh] object-fill" alt="">
+                  <div class="col-span-2 space-y-1 px-4 sm:px-0">
+                      <p class="self-stretch text-gray-500 text-sm">GOVERNMENT AND POLICY</p>
+                      <p class="self-stretch font-semibold hover:underline">British Navy taps VR to train sailors in warship navigation</p>
+                  </div>
+              </article>
+              <button class="px-8 py-4 rounded-3xl bg-purple-600 text-white sm:col-span-4 w-max mx-auto my-10 font-semibold">See all latest news</button>
+          </section>
+  
+          <!-- other sections -->
+          
+          <section class="mb-10 space-y-10 sm:px-10 px-3">
+              <hr>
+              <article class="grid sm:grid-cols-2 space-y-5">
+                  <h1 class="font-semibold text-2xl sm:col-span-2 px-5 hover:text-purple-600">Startups and technology</h1>
+                  <!-- bigger div -->
+                  <div class="space-y-5 px-5">
+                      <img src="src/assets/latestnews6.jpeg" class="w-full h-[40vh] sm:h-[60vh] object-cover" alt="">
+                      <div>
+                          <p class="text-gray-500 text-sm">GOVERNMENT AND POLICY</p>
+                          <p class="font-semibold text-2xl">British Navy taps VR to train sailors in warship navigation</p>
+                          <p>The 'gamechanging' VR simulators could make military training faster than ever before</p>
+                      </div>
+                  </div>
+                  <!-- sides -->
+                  <div class="space-y-5">
+                      <div class="flex space-x-3 px-5">
+                          <img src="src/assets/latestnews2.jpeg" class="size-[7rem] object-fill" alt="">
+                          <div class="w-[80%] col-span-2 space-y-1 px-2">
+                              <p class="self-stretch text-gray-500 text-sm">GOVERNMENT AND POLICY</p>
+                              <p class="self-stretch font-semibold hover:underline">British Navy taps VR to train sailors in warship navigation</p>
+                          </div>
+                      </div>
+                      <div class="flex space-x-3 px-5">
+                          <img src="src/assets/latestnews3.jpeg" class="size-[7rem] object-fill" alt="">
+                          <div class="w-[80%] col-span-2 space-y-1 px-2">
+                              <p class="self-stretch text-gray-500 text-sm">GOVERNMENT AND POLICY</p>
+                              <p class="self-stretch font-semibold hover:underline">British Navy taps VR to train sailors in warship navigation</p>
+                          </div>
+                      </div>
+                      <div class="flex space-x-3 px-5">
+                          <img src="src/assets/latestnews4.jpeg" class="size-[7rem] object-fill" alt="">
+                          <div class="w-[80%] col-span-2 space-y-1 px-2">
+                              <p class="self-stretch text-gray-500 text-sm">GOVERNMENT AND POLICY</p>
+                              <p class="self-stretch font-semibold hover:underline">British Navy taps VR to train sailors in warship navigation</p>
+                          </div>
+                      </div>
+                      <div class="flex space-x-3 px-5">
+                          <img src="src/assets/latestnews5.jpeg" class="size-[7rem] object-fill" alt="">
+                          <div class="w-[80%] col-span-2 space-y-1 px-2">
+                              <p class="self-stretch text-gray-500 text-sm">GOVERNMENT AND POLICY</p>
+                              <p class="self-stretch font-semibold hover:underline">British Navy taps VR to train sailors in warship navigation</p>
+                          </div>
+                      </div>
+                  </div>
+              </article>
+              <hr>
+          </section>
+  
+          <!-- work with us -->
+  
+          <section class="mb-10 px-3 space-y-5 sm:flex sm:space-x-5 sm:px-10">
+            <!-- text -->
+            <div class="sm:w-1/2 space-y-5">
+              <p class="sm:text-start text-center text-sm text-gray-500">REACH YOUR GOALS</p>
+              <p class="sm:text-start font-bold text-4xl text-purple-600 text-center">Work with us</p>
+              <p class="sm:text-start text-center text-xl">TNW takes center stage in the tech industry, offering creative media campaigns, sizzling tech events, bespoke innovation programs, and prime office locations in Amsterdam. Want to engage your audience more effectively, innovate your business, and position your brand in front of a digital-savvy audience?</p>
+              <button class="sm:mx-0 sm:text-start font-semibold bg-purple-600 text-white px-6 py-2 text-center rounded-md mx-auto block">Get in touch</button>
+            </div>
+            <!-- icons -->
+            <div class="sm:w-1/2 grid grid-cols-2 gap-5">
+              <p class="flex flex-col justify-center items-center font-semibold">
+                <img src="src/assets/bigicon1.svg" class="size-[7rem]" alt="">
+                Media
+              </p>
+              <p class="flex flex-col justify-center items-center font-semibold">
+                <img src="src/assets/bigicon2.svg" class="size-[7rem]" alt="">
+                Events
+              </p>
+              <p class="flex flex-col justify-center items-center font-semibold">
+                <img src="src/assets/bigicon3.svg" class="size-[7rem]" alt="">
+                Spaces
+              </p>
+              <p class="flex flex-col justify-center items-center font-semibold">
+                <img src="src/assets/bigicon4.svg" class="size-[7rem]" alt="">
+                Programs
               </p>
             </div>
-            <img
-              src="src/assets/grid1image1.jpeg"
-              class="w-full h-full object-cover brightness-75 hover:brightness-50 transition-all ease-in-out"
-              alt=""
-            />
-          </article>
-          <article class="relative text-white sm:row-span-2">
-            <div class="absolute left-5 bottom-5 z-10">
-              <p class="text-sm">CORPORATES AND INNOVATION</p>
-              <p class="font-bold text-4xl">This week in Dutch tech</p>
+          </section>
+  
+          <!-- sponsors -->
+  
+          <section class="grid grid-cols-2 px-10 sm:grid-cols-8 mb-10">
+            <img src="src/assets/sponsor1.svg" class="w-full h-auto object-contain" alt="">
+            <img src="src/assets/sponsor2.svg" class="w-full h-auto object-contain" alt="">
+            <img src="src/assets/sponsor3.svg" class="w-full h-auto object-contain" alt="">
+            <img src="src/assets/sponsor4.svg" class="w-full h-auto object-contain" alt="">
+            <img src="src/assets/sponsor5.svg" class="w-full h-auto object-contain" alt="">
+            <img src="src/assets/sponsor6.svg" class="w-full h-auto object-contain" alt="">
+            <img src="src/assets/sponsor7.svg" class="w-full h-auto object-contain" alt="">
+            <img src="src/assets/sponsor8.svg" class="w-full h-auto object-contain" alt="">
+          </section>
+  
+          <!-- footer -->
+  
+          <footer class="bg-black text-white grid grid-cols-2 gap-y-5 py-10 sm:grid-cols-3"> 
+            <div class="space-y-10 sm:col-span-1 col-span-2">
+              <div>
+                <p class="text-center text-7xl font-bold">TNW</p>
+                <p class="text-center text-4xl font-bold">The heart of tech</p>
+               </div>
+  
+               <div class="flex justify-around">
+                <img src="src/assets/social1.png" class="size-6" alt="">
+                <img src="src/assets/social2.png" class="size-6" alt="">
+                <img src="src/assets/social3.png" class="size-6" alt="">
+                <img src="src/assets/social4.png" class="size-6" alt="">
+                <img src="src/assets/social5.png" class="size-6" alt="">
+                <img src="src/assets/social6.png" class="size-6" alt="">
+                <img src="src/assets/social7.png" class="size-6" alt="">
+               </div>
             </div>
-            <img
-              src="src/assets/grid1image2.jpeg"
-              class="w-full h-full object-cover brightness-75 hover:brightness-50 transition-all ease-in-out"
-              alt=""
-            />
-          </article>
-          <article class="relative text-white sm:row-span-2">
-            <div class="absolute left-5 bottom-5 z-10">
-              <p class="text-sm">DEEP TECH</p>
-              <p class="font-bold text-4xl">
-                LLMs have become a weapon of information warfare
-              </p>
+            <div class="space-y-2 sm:px-0 px-5">
+              <p class="font-bold">More TNW</p>
+              <p class="text-sky-300 font-bold hover:underline">Media</p>
+              <p class="text-sky-300 font-bold hover:underline">Events</p>
+              <p class="text-sky-300 font-bold hover:underline">Programs</p>
+              <p class="text-sky-300 font-bold hover:underline">Spaces</p>
+              <p class="text-sky-300 font-bold hover:underline">Newsletters</p>
+              <p class="text-sky-300 font-bold hover:underline">Jobs in tech</p>
             </div>
-            <img
-              src="src/assets/grid1image3.jpeg"
-              class="w-full h-full object-cover brightness-75 hover:brightness-50 transition-all ease-in-out"
-              alt=""
-            />
-          </article>
-          <article class="relative sm:col-span-2 sm:row-span-3 text-white">
-            <div class="absolute left-5 bottom-5 z-10">
-              <p class="text-sm">ECOSYSTEMS</p>
-              <p class="font-bold text-4xl">
-                TNW Podcast: Peter Sarlin on AI in Europe; let’s talk about carbon
-                capture
-              </p>
+            <div class="space-y-2 sm:px-0 px-5">
+              <p class="font-bold">About TNW</p>
+              <p class="text-sky-300 font-bold hover:underline">Partner with us</p>
+              <p class="text-sky-300 font-bold hover:underline">Jobs</p>
+              <p class="text-sky-300 font-bold hover:underline">Terms & Conditions</p>
+              <p class="text-sky-300 font-bold hover:underline">Cookie Statement</p>
+              <p class="text-sky-300 font-bold hover:underline">Privacy Statement</p>
+              <p class="text-sky-300 font-bold hover:underline">Editorial Policy</p>
+              <p class="text-sky-300 font-bold hover:underline">Masthead</p>
             </div>
-            <img
-              src="src/assets/grid1image4.jpeg"
-              class="w-full h-full object-cover brightness-75 hover:brightness-50 transition-all ease-in-out"
-              alt=""
-            />
-          </article>
-          <article class="relative sm:row-span-2 sm:col-span-2 text-white">
-            <div class="absolute left-5 bottom-5 z-10 space-y-3">
-              <p class="font-bold text-4xl">Celebrate National Technology Day!</p>
-              <p class="text-sm">
-                Use discount code TECHDAY-2024 for 30% off your tickets
-              </p>
-              <button class="px-4 py-1 border rounded-3xl">Lorem ipsum dolor sit amet.</button>
+            <div class="sm:col-span-3 border border-l-0 border-b-0 border-r-0 border-t-sky-500 col-span-2 space-y-5 py-5">
+              <p class="text-center text-xl font-bold">A Financial Times Company</p>
+              <p class="text-center">Copyright © 2006—2024, The Next Web B.V. Made with 3 in Amsterdam.</p>
             </div>
-            <img
-              src="src/assets/grid1image5.jpeg"
-              class="w-full h-full object-cover brightness-75 hover:brightness-50 transition-all ease-in-out"
-              alt=""
-            />
-          </article>
-        </section>
-    
-        <!-- latest news -->
-    
-        <section class="mb-10 grid sm:grid-cols-4 gap-4 sm:gap-8 sm:px-10 px-3">
-            <h1 class="text-center font-bold text-4xl sm:text-start sm:col-span-4">Latest news</h1>
-            <article class="grid grid-cols-3 sm:grid-cols-1 sm:space-y-2">
-                <img src="src/assets/latestnews1.jpeg" class="w-full h-[30vh] object-fill" alt="">
-                <div class="col-span-2 space-y-1 px-4 sm:px-0">
-                    <p class="self-stretch text-gray-500 text-sm">GOVERNMENT AND POLICY</p>
-                    <p class="self-stretch font-semibold hover:underline">British Navy taps VR to train sailors in warship navigation</p>
-                </div>
-            </article>
-            <article class="grid grid-cols-3 sm:grid-cols-1 sm:space-y-2">
-                <img src="src/assets/latestnews2.jpeg" class="w-full h-[30vh] object-fill" alt="">
-                <div class="col-span-2 space-y-1 px-4 sm:px-0">
-                    <p class="self-stretch text-gray-500 text-sm">GOVERNMENT AND POLICY</p>
-                    <p class="self-stretch font-semibold hover:underline">British Navy taps VR to train sailors in warship navigation</p>
-                </div>
-            </article>
-            <article class="grid grid-cols-3 sm:grid-cols-1 sm:space-y-2">
-                <img src="src/assets/latestnews3.jpeg" class="w-full h-[30vh] object-fill" alt="">
-                <div class="col-span-2 space-y-1 px-4 sm:px-0">
-                    <p class="self-stretch text-gray-500 text-sm">GOVERNMENT AND POLICY</p>
-                    <p class="self-stretch font-semibold hover:underline">British Navy taps VR to train sailors in warship navigation</p>
-                </div>
-            </article>
-            <article class="grid grid-cols-3 sm:grid-cols-1 sm:space-y-2">
-                <img src="src/assets/latestnews4.jpeg" class="w-full h-[30vh] object-fill" alt="">
-                <div class="col-span-2 space-y-1 px-4 sm:px-0">
-                    <p class="self-stretch text-gray-500 text-sm">GOVERNMENT AND POLICY</p>
-                    <p class="self-stretch font-semibold hover:underline">British Navy taps VR to train sailors in warship navigation</p>
-                </div>
-            </article>
-            <article class="grid grid-cols-3 sm:grid-cols-1 sm:space-y-2">
-                <img src="src/assets/latestnews5.jpeg" class="w-full h-[30vh] object-fill" alt="">
-                <div class="col-span-2 space-y-1 px-4 sm:px-0">
-                    <p class="self-stretch text-gray-500 text-sm">GOVERNMENT AND POLICY</p>
-                    <p class="self-stretch font-semibold hover:underline">British Navy taps VR to train sailors in warship navigation</p>
-                </div>
-            </article>
-            <article class="grid grid-cols-3 sm:grid-cols-1 sm:space-y-2">
-                <img src="src/assets/latestnews6.jpeg" class="w-full h-[30vh] object-fill" alt="">
-                <div class="col-span-2 space-y-1 px-4 sm:px-0">
-                    <p class="self-stretch text-gray-500 text-sm">GOVERNMENT AND POLICY</p>
-                    <p class="self-stretch font-semibold hover:underline">British Navy taps VR to train sailors in warship navigation</p>
-                </div>
-            </article>
-            <article class="grid grid-cols-3 sm:grid-cols-1 sm:space-y-2">
-                <img src="src/assets/latestnews7.jpeg" class="w-full h-[30vh] object-fill" alt="">
-                <div class="col-span-2 space-y-1 px-4 sm:px-0">
-                    <p class="self-stretch text-gray-500 text-sm">GOVERNMENT AND POLICY</p>
-                    <p class="self-stretch font-semibold hover:underline">British Navy taps VR to train sailors in warship navigation</p>
-                </div>
-            </article>
-            <article class="grid grid-cols-3 sm:grid-cols-1 sm:space-y-2">
-                <img src="src/assets/latestnews1.jpeg" class="w-full h-[30vh] object-fill" alt="">
-                <div class="col-span-2 space-y-1 px-4 sm:px-0">
-                    <p class="self-stretch text-gray-500 text-sm">GOVERNMENT AND POLICY</p>
-                    <p class="self-stretch font-semibold hover:underline">British Navy taps VR to train sailors in warship navigation</p>
-                </div>
-            </article>
-            <button class="px-8 py-4 rounded-3xl bg-purple-600 text-white sm:col-span-4 w-max mx-auto my-10 font-semibold">See all latest news</button>
-        </section>
+          </footer>
 
-        <!-- other sections -->
-        
-        <section class="mb-10 space-y-10 sm:px-10 px-3">
-            <hr>
-            <article class="grid sm:grid-cols-2 space-y-5">
-                <h1 class="font-semibold text-2xl sm:col-span-2 px-5 hover:text-purple-600">Startups and technology</h1>
-                <!-- bigger div -->
-                <div class="space-y-5 px-5">
-                    <img src="src/assets/latestnews6.jpeg" class="w-full h-[40vh] sm:h-[60vh] object-cover" alt="">
-                    <div>
-                        <p class="text-gray-500 text-sm">GOVERNMENT AND POLICY</p>
-                        <p class="font-semibold text-2xl">British Navy taps VR to train sailors in warship navigation</p>
-                        <p>The 'gamechanging' VR simulators could make military training faster than ever before</p>
-                    </div>
-                </div>
-                <!-- sides -->
-                <div class="space-y-5">
-                    <div class="flex space-x-3 px-5">
-                        <img src="src/assets/latestnews2.jpeg" class="size-[7rem] object-fill" alt="">
-                        <div class="w-[80%] col-span-2 space-y-1 px-2">
-                            <p class="self-stretch text-gray-500 text-sm">GOVERNMENT AND POLICY</p>
-                            <p class="self-stretch font-semibold hover:underline">British Navy taps VR to train sailors in warship navigation</p>
-                        </div>
-                    </div>
-                    <div class="flex space-x-3 px-5">
-                        <img src="src/assets/latestnews3.jpeg" class="size-[7rem] object-fill" alt="">
-                        <div class="w-[80%] col-span-2 space-y-1 px-2">
-                            <p class="self-stretch text-gray-500 text-sm">GOVERNMENT AND POLICY</p>
-                            <p class="self-stretch font-semibold hover:underline">British Navy taps VR to train sailors in warship navigation</p>
-                        </div>
-                    </div>
-                    <div class="flex space-x-3 px-5">
-                        <img src="src/assets/latestnews4.jpeg" class="size-[7rem] object-fill" alt="">
-                        <div class="w-[80%] col-span-2 space-y-1 px-2">
-                            <p class="self-stretch text-gray-500 text-sm">GOVERNMENT AND POLICY</p>
-                            <p class="self-stretch font-semibold hover:underline">British Navy taps VR to train sailors in warship navigation</p>
-                        </div>
-                    </div>
-                    <div class="flex space-x-3 px-5">
-                        <img src="src/assets/latestnews5.jpeg" class="size-[7rem] object-fill" alt="">
-                        <div class="w-[80%] col-span-2 space-y-1 px-2">
-                            <p class="self-stretch text-gray-500 text-sm">GOVERNMENT AND POLICY</p>
-                            <p class="self-stretch font-semibold hover:underline">British Navy taps VR to train sailors in warship navigation</p>
-                        </div>
-                    </div>
-                </div>
-            </article>
-            <hr>
-        </section>
-
-        <!-- work with us -->
-
-        <section class="mb-10 px-3 space-y-5 sm:flex sm:space-x-5 sm:px-10">
-          <!-- text -->
-          <div class="sm:w-1/2 space-y-5">
-            <p class="sm:text-start text-center text-sm text-gray-500">REACH YOUR GOALS</p>
-            <p class="sm:text-start font-bold text-4xl text-purple-600 text-center">Work with us</p>
-            <p class="sm:text-start text-center text-xl">TNW takes center stage in the tech industry, offering creative media campaigns, sizzling tech events, bespoke innovation programs, and prime office locations in Amsterdam. Want to engage your audience more effectively, innovate your business, and position your brand in front of a digital-savvy audience?</p>
-            <button class="sm:mx-0 sm:text-start font-semibold bg-purple-600 text-white px-6 py-2 text-center rounded-md mx-auto block">Get in touch</button>
-          </div>
-          <!-- icons -->
-          <div class="sm:w-1/2 grid grid-cols-2 gap-5">
-            <p class="flex flex-col justify-center items-center font-semibold">
-              <img src="src/assets/bigicon1.svg" class="size-[7rem]" alt="">
-              Media
-            </p>
-            <p class="flex flex-col justify-center items-center font-semibold">
-              <img src="src/assets/bigicon2.svg" class="size-[7rem]" alt="">
-              Events
-            </p>
-            <p class="flex flex-col justify-center items-center font-semibold">
-              <img src="src/assets/bigicon3.svg" class="size-[7rem]" alt="">
-              Spaces
-            </p>
-            <p class="flex flex-col justify-center items-center font-semibold">
-              <img src="src/assets/bigicon4.svg" class="size-[7rem]" alt="">
-              Programs
-            </p>
-          </div>
-        </section>
-
-        <!-- sponsors -->
-
-        <section class="grid grid-cols-2 px-10 sm:grid-cols-8 mb-10">
-          <img src="src/assets/sponsor1.svg" class="w-full h-auto object-contain" alt="">
-          <img src="src/assets/sponsor2.svg" class="w-full h-auto object-contain" alt="">
-          <img src="src/assets/sponsor3.svg" class="w-full h-auto object-contain" alt="">
-          <img src="src/assets/sponsor4.svg" class="w-full h-auto object-contain" alt="">
-          <img src="src/assets/sponsor5.svg" class="w-full h-auto object-contain" alt="">
-          <img src="src/assets/sponsor6.svg" class="w-full h-auto object-contain" alt="">
-          <img src="src/assets/sponsor7.svg" class="w-full h-auto object-contain" alt="">
-          <img src="src/assets/sponsor8.svg" class="w-full h-auto object-contain" alt="">
-        </section>
-
-        <!-- footer -->
-
-        <footer class="bg-black text-white grid grid-cols-2 gap-y-5 py-10 sm:grid-cols-3"> 
-          <div class="space-y-10 sm:col-span-1 col-span-2">
-            <div>
-              <p class="text-center text-7xl font-bold">TNW</p>
-              <p class="text-center text-4xl font-bold">The heart of tech</p>
-             </div>
-
-             <div class="flex justify-around">
-              <img src="src/assets/social1.png" class="size-6" alt="">
-              <img src="src/assets/social2.png" class="size-6" alt="">
-              <img src="src/assets/social3.png" class="size-6" alt="">
-              <img src="src/assets/social4.png" class="size-6" alt="">
-              <img src="src/assets/social5.png" class="size-6" alt="">
-              <img src="src/assets/social6.png" class="size-6" alt="">
-              <img src="src/assets/social7.png" class="size-6" alt="">
-             </div>
-          </div>
-          <div class="space-y-2 sm:px-0 px-5">
-            <p class="font-bold">More TNW</p>
-            <p class="text-sky-300 font-bold hover:underline">Media</p>
-            <p class="text-sky-300 font-bold hover:underline">Events</p>
-            <p class="text-sky-300 font-bold hover:underline">Programs</p>
-            <p class="text-sky-300 font-bold hover:underline">Spaces</p>
-            <p class="text-sky-300 font-bold hover:underline">Newsletters</p>
-            <p class="text-sky-300 font-bold hover:underline">Jobs in tech</p>
-          </div>
-          <div class="space-y-2 sm:px-0 px-5">
-            <p class="font-bold">About TNW</p>
-            <p class="text-sky-300 font-bold hover:underline">Partner with us</p>
-            <p class="text-sky-300 font-bold hover:underline">Jobs</p>
-            <p class="text-sky-300 font-bold hover:underline">Terms & Conditions</p>
-            <p class="text-sky-300 font-bold hover:underline">Cookie Statement</p>
-            <p class="text-sky-300 font-bold hover:underline">Privacy Statement</p>
-            <p class="text-sky-300 font-bold hover:underline">Editorial Policy</p>
-            <p class="text-sky-300 font-bold hover:underline">Masthead</p>
-          </div>
-          <div class="sm:col-span-3 border border-l-0 border-b-0 border-r-0 border-t-sky-500 col-span-2 space-y-5 py-5">
-            <p class="text-center text-xl font-bold">A Financial Times Company</p>
-            <p class="text-center">Copyright © 2006—2024, The Next Web B.V. Made with 3 in Amsterdam.</p>
-          </div>
-        </footer>
+        </div>
     </div>
   </body>
 </html>
